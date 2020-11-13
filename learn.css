@@ -1,0 +1,9 @@
+li {
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(51, 9, 90);
+}
+

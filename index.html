@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn</title>
+    <link rel="stylesheet" href="learn.css">
+</head>
+<body>
+    <input id="input" required placeholder="Введите имя" type ="text" pattern = "^[А-Яа-яЁё\s]+$" validationMessage = "Неправильное ФИО!" value="">
+    <input id="input_2" required placeholder="Введите номер телефона" type= "text" pattern = "\+375\-[0-9]{2}\-[0-9]{7}\" validationMessage = "Неправильный номер!" value="">
+    <button onclick="add()">Добавить</button>
+    <button onclick="cleared()">Очистить</button>
+    <div id="list"></div>
+    <script src="learn.js"></script>
+
+
+   
+</body>
+</html>
